@@ -1,0 +1,35 @@
+/*Generics*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+/* UTILITY */
+
+:root {
+    --jumbo-bg-color: #b4d0e7;
+    --colored-button-color: #0866fe;
+    --asu-bg: #61082b;
+    --designit-bg: #a2d39b;
+    --ufflorida-bg: #0093ce;
+    --topps-bg: #d5001f;
+    --wbr-bg: #d5001f;
+    --loneyplanet-bg: #0d2481;
+    --clearchannel-bg: #ffd830;
+    --heartscorporation-bg: #ffd830;
+    --designit-slogan-bg: #ffd830;
+
+    --freetrial-bg: #b4d0e7;
+    --freetrial-txt: #61082b;
+
+    --footer-bg: #000000;
+    --footer-txt: #ffffff;
+}
