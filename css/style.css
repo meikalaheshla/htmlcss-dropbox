@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #0061ff;
+
 
 }
 
@@ -19,6 +19,10 @@ ul {
 a {
     text-decoration: none;
     color: black;
+}
+
+main {
+    padding-top: 150px;
 }
 
 /* UTILITY */
@@ -38,10 +42,11 @@ a {
     --footer-bg: #000000;
     --fixed-navbar-bg: #ffffff;
 
+    --plans-border: #d6d4d4;
 
     --freetrial-txt: #61082b;
     --footer-txt: #ffffff;
-
+    --buy-now-txt: #d2cdf8;
     --colored-button: #0061ff;
     --colored-button-txt: #ffffff;
 }
@@ -49,7 +54,6 @@ a {
 .colored-button {
     background-color: var(--colored-button);
     color: var(--colored-button-txt);
-    padding: 8px 15px;
     ;
 }
 
@@ -58,11 +62,27 @@ a {
     margin: 0 auto;
 }
 
+.small-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.small-button {
+    text-align: center;
+    padding: 8px 15px;
+}
+
 
 .large-button {
-    width: 90px;
+    width: 250px;
+    text-align: center;
+    padding: 8px 15px;
 
 
+}
+
+.bold {
+    font-weight: bold;
 }
 
 /* HEADER */
@@ -118,10 +138,11 @@ header .left-navbar {
 
 }
 
-.jumbotron h2 {
+.jumbotron h1 {
     font-size: 80px;
     font-weight: 900;
     margin-bottom: 40px;
+
 }
 
 /* jumbo-links */
@@ -144,7 +165,7 @@ header .left-navbar {
 /* heade-img */
 
 .jumbotron figure {
-    width: 900px;
+    width: 850px;
     position: absolute;
     top: 0;
     left: 100%;
@@ -156,4 +177,79 @@ header .left-navbar {
 .jumbotron img {
     width: 850px;
     height: 550px
+}
+
+
+/* MAIN */
+
+/* BUISNESS PLANS SECTION */
+
+main h2 {
+    font-size: 40px;
+    font-weight: bold
+}
+
+#buisness-plan h2 {
+    margin-bottom: 30px;
+}
+
+#buisness-plan span {
+    margin-bottom: 70px;
+}
+
+
+.buisness-plans-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.plans-column {
+    width: 30%;
+    border: 2px solid var(--plans-border);
+    margin-bottom: 50px;
+
+}
+
+.plans-type {
+    border-bottom: 2px solid var(--plans-border);
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.large-column {
+    flex-grow: 1;
+
+}
+
+.plan-price {
+    font-weight: bolder;
+}
+
+.plans-content {
+    padding: 30px 25px;
+}
+
+.plans-detail li {
+    margin-bottom: 15px;
+    padding: ;
+}
+
+.plans-content div {
+    margin-bottom: 40px;
+}
+
+
+.buy-now-link {
+    text-decoration: underline;
+    color: var(--buy-now-txt)
+}
+
+.trial-buy-links li {
+    margin-bottom: 30px
+}
+
+.plans-content hr {
+    width: 20%;
 }
