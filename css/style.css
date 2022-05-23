@@ -16,12 +16,10 @@ ul {
     list-style-type: none;
 }
 
-.colored-button {
-    background-color: var(--colored-button);
-    color: var(--colored-button-txt);
-    padding: 5px 10px;
+a {
+    text-decoration: none;
+    color: black;
 }
-
 
 /* UTILITY */
 
@@ -38,7 +36,7 @@ ul {
     --designit-slogan-bg: #f5f5f5;
     --freetrial-bg: #b4d0e7;
     --footer-bg: #000000;
-    --header-bg: #ffffff;
+    --fixed-navbar-bg: #ffffff;
 
 
     --freetrial-txt: #61082b;
@@ -48,38 +46,112 @@ ul {
     --colored-button-txt: #ffffff;
 }
 
+.colored-button {
+    background-color: var(--colored-button);
+    color: var(--colored-button-txt);
+    padding: 8px 15px;
+    ;
+}
+
+.big-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.large-button {
+    width: 90px;
+
+
+}
+
 /* HEADER */
 
+/* NAVBAR */
 
-
-.fix-navbar {
+.fixed-navbar {
     height: 80px;
     position: sticky;
     top: 0;
     display: flex;
-    padding: 0 10px;
+    padding: 0 20px;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--header-bg);
+    background-color: var(--fixed-navbar-bg);
+    z-index: 1;
 }
 
-header ul {
+.fixed-navbar ul {
     display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 
-header a {
+.fixed-navbar a {
     text-decoration: none;
-    color: black;
-    margin-left: 30px
+    margin-left: 30px;
+
+
 }
 
 header .left-navbar {
-    justify-self: start;
     display: flex;
 }
 
+/* JUMBO */
+
+.jumbotron {
+    background-color: var(--jumbo-bg);
+    padding-top: 80px;
+    padding-bottom: 30px;
+    height: 800px;
+}
+
+.header-content {
+    height: 100%;
+    position: relative;
+
+}
+
+.txt-column {
+    margin-bottom: 40px;
+
+}
+
+.jumbotron h2 {
+    font-size: 80px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+/* jumbo-links */
+
+.jumbotron li {
+    margin: 60px 0;
+}
+
+#inpage-link {
+    font-size: 60px;
+}
+
+.header-content-col {
+    width: 30%;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+/* heade-img */
+
+.jumbotron figure {
+    width: 70%;
+}
 
 
-header .right-navbar {
-    justify-self: end;
+.jumbotron img {
+    width: 100%;
+}
+
+.header-content figure {
+
+    left: 30%
 }
