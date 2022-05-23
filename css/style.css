@@ -135,6 +135,7 @@ header .left-navbar {
 }
 
 .header-content-col {
+    position: relative;
     width: 30%;
     display: inline-block;
     padding-right: 10px;
@@ -143,15 +144,16 @@ header .left-navbar {
 /* heade-img */
 
 .jumbotron figure {
-    width: 70%;
+    width: 900px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+
+
 }
 
 
 .jumbotron img {
-    width: 100%;
-}
-
-.header-content figure {
-
-    left: 30%
+    width: 850px;
+    height: 550px
 }
