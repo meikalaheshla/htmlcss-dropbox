@@ -25,6 +25,10 @@ main {
     padding-top: 150px;
 }
 
+/* hr {
+    display: block;
+} */
+
 /* UTILITY */
 
 :root {
@@ -49,6 +53,7 @@ main {
     --buy-now-txt: #d2cdf8;
     --colored-button: #0061ff;
     --colored-button-txt: #ffffff;
+    --check-color: #0061ff;
 }
 
 .colored-button {
@@ -76,7 +81,8 @@ main {
 .large-button {
     width: 250px;
     text-align: center;
-    padding: 8px 15px;
+    padding: 10px 30px;
+    display: block;
 
 
 }
@@ -93,7 +99,24 @@ main {
     width: 70%;
 }
 
-.m-bot {}
+.m-bot-30 {
+    margin-bottom: 30px
+}
+
+
+
+.w-33 {
+    width: calc(100%/3);
+}
+
+.icon-list li {
+    display: flex;
+
+}
+
+.fa-solid {
+    margin-right: 5px;
+}
 
 /* HEADER */
 
@@ -111,6 +134,7 @@ main {
     justify-content: space-between;
     background-color: var(--fixed-navbar-bg);
     z-index: 1;
+    box-shadow: 0 1px 3px #dedede;
 }
 
 .fixed-navbar ul {
@@ -197,16 +221,21 @@ main h2 {
 }
 
 
-.buisness-plans-box {
+.buisness-plans-box .row {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: 0 -20px;
 }
 
-.plans-column {
-    width: 30%;
+.plans-card {
     border: 2px solid var(--plans-border);
-    margin-bottom: 50px;
+
+
+}
+
+.buisness-plans-box .col {
+    padding: 0 20px;
 
 }
 
@@ -227,10 +256,10 @@ main h2 {
 }
 
 .plans-content {
-    padding: 30px 25px;
+    padding: 30px 20px;
 }
 
-.plans-detail li {
+.plans-content li {
     margin-bottom: 15px;
 
 }
@@ -245,10 +274,12 @@ main h2 {
     color: var(--buy-now-txt)
 }
 
-.trial-buy-links li {
-    margin-bottom: 30px
-}
+
 
 .plans-content hr {
     width: 20%;
+}
+
+.fa-check {
+    color: var(--check-color)
 }
