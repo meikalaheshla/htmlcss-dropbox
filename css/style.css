@@ -235,14 +235,14 @@ main h2 {
     font-weight: bold
 }
 
-#buisness-plan h2 {
+#business-plan h2 {
     margin-bottom: 30px;
 }
 
 
 
 
-.buisness-plans-box .row {
+.business-plans-box .row {
     margin: 0 -20px;
 }
 
@@ -252,7 +252,7 @@ main h2 {
 
 }
 
-.buisness-plans-box .col {
+.business-plans-box .col {
     padding: 0 20px;
 
 }
@@ -348,4 +348,32 @@ main h2 {
     padding: 10px;
     display: block;
     width: 60%;
+}
+
+/* DROPBOX BUISNESS */
+#dropbox-business .business-info-card {
+    width: 100%;
+}
+
+#dropbox-business figure {
+    width: 100%;
+}
+
+#dropbox-business img {
+    width: 100%;
+}
+
+#dropbox-business h2 {
+    margin-bottom: 50px;
+}
+
+#dropbox-business .row {
+
+    margin: 0 -20px;
+}
+
+#dropbox-business .col {
+    padding: 0 20px;
+    margin-bottom: 60px;
+
 }
