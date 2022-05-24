@@ -26,7 +26,8 @@ main {
 }
 
 section {
-    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 /* hr {
@@ -49,21 +50,32 @@ section {
     --freetrial-bg: #b4d0e7;
     --footer-bg: #000000;
     --fixed-navbar-bg: #ffffff;
+    --uncolored-button-bg: #ffffff;
 
     --plans-border: #d6d4d4;
+    --uncolored-button-border: #000000;
 
     --freetrial-txt: #61082b;
     --footer-txt: #ffffff;
     --buy-now-txt: #d2cdf8;
     --colored-button: #0061ff;
     --colored-button-txt: #ffffff;
+    --uncolored-button-txt: #000000;
     --check-color: #0061ff;
 }
 
 .colored-button {
     background-color: var(--colored-button);
     color: var(--colored-button-txt);
-    ;
+
+}
+
+.uncolored-button {
+    background-color: var(--uncolored-button-bg);
+    color: var(--uncolored-button-txt);
+    border: 1px solid var(--uncolored-button-border);
+    text-align: center;
+
 }
 
 .big-container {
@@ -120,6 +132,13 @@ section {
 
 .fa-solid {
     margin-right: 5px;
+}
+
+.row {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* HEADER */
@@ -224,9 +243,6 @@ main h2 {
 
 
 .buisness-plans-box .row {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     margin: 0 -20px;
 }
 
@@ -308,4 +324,28 @@ main h2 {
 .large-card-link {
     padding: 30px;
     width: 30%;
+}
+
+
+/* DROPBOX PARTNER SECTION */
+
+
+#partner-dropbox .col-img {
+    width: 60%
+}
+
+#partner-dropbox .col-txt {
+    width: 40%;
+    padding: 40px;
+}
+
+#partner-dropbox img {
+    width: 100%;
+    display: block;
+}
+
+#partner-dropbox .uncolored-button {
+    padding: 10px;
+    display: block;
+    width: 60%;
 }
