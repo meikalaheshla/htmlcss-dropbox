@@ -25,6 +25,10 @@ main {
     padding-top: 150px;
 }
 
+section {
+    margin-bottom: 100px;
+}
+
 /* hr {
     display: block;
 } */
@@ -81,7 +85,7 @@ main {
 .large-button {
     width: 250px;
     text-align: center;
-    padding: 10px 30px;
+    padding: 10px 25px;
     display: block;
 
 
@@ -216,9 +220,7 @@ main h2 {
     margin-bottom: 30px;
 }
 
-#buisness-plan span {
-    margin-bottom: 70px;
-}
+
 
 
 .buisness-plans-box .row {
@@ -246,10 +248,6 @@ main h2 {
     text-align: center;
 }
 
-.large-column {
-    flex-grow: 1;
-
-}
 
 .plan-price {
     font-weight: bolder;
@@ -281,5 +279,33 @@ main h2 {
 }
 
 .fa-check {
-    color: var(--check-color)
+    color: var(--check-color);
+}
+
+.plans-card {
+    height: 100%;
+}
+
+.plans-content span,
+.large-card-content span {
+    display: block;
+}
+
+/* bigger card */
+.large-column {
+    flex-grow: 1;
+}
+
+.large-card-content {
+    display: flex;
+}
+
+.large-card-info {
+    width: 70%;
+    padding: 30px;
+}
+
+.large-card-link {
+    padding: 30px;
+    width: 30%;
 }
