@@ -85,14 +85,26 @@ main {
     font-weight: bold;
 }
 
+.w-30 {
+    width: 30%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.m-bot {}
+
 /* HEADER */
 
 /* NAVBAR */
 
 .fixed-navbar {
     height: 80px;
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     padding: 0 20px;
     align-items: center;
@@ -104,7 +116,7 @@ main {
 .fixed-navbar ul {
     display: flex;
     justify-content: space-around;
-    width: 100%;
+
 }
 
 .fixed-navbar a {
@@ -122,21 +134,18 @@ header .left-navbar {
 
 .jumbotron {
     background-color: var(--jumbo-bg);
-    padding-top: 80px;
+    padding-top: 150px;
     padding-bottom: 30px;
-    height: 800px;
+    height: 820px;
 }
 
 .header-content {
     height: 100%;
-    position: relative;
+    display: flex;
 
 }
 
-.txt-column {
-    margin-bottom: 40px;
 
-}
 
 .jumbotron h1 {
     font-size: 80px;
@@ -148,36 +157,26 @@ header .left-navbar {
 /* jumbo-links */
 
 .jumbotron li {
-    margin: 60px 0;
+    margin: 40px 0;
 }
 
 #inpage-link {
     font-size: 60px;
 }
 
-.header-content-col {
-    position: relative;
-    width: 30%;
-    display: inline-block;
-    padding-right: 10px;
-}
 
-/* heade-img */
 
+/* jumbo-img */
 .jumbotron figure {
-    width: 850px;
-    position: absolute;
-    top: 0;
-    left: 100%;
-
-
+    width: 100%;
 }
-
 
 .jumbotron img {
-    width: 850px;
-    height: 550px
+    width: 100%
 }
+
+
+
 
 
 /* MAIN */
