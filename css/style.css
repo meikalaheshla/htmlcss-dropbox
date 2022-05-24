@@ -287,7 +287,7 @@ main h2 {
 
 .buy-now-link {
     text-decoration: underline;
-    color: var(--buy-now-txt)
+    color: var(--normal-a-txt-color)
 }
 
 
@@ -476,24 +476,55 @@ main h2 {
 
 /* MIDDLE COL */
 
-.middle-col .middle-content {
+#dropbox-clients .middle-col .middle-content {
     padding: 30px;
 }
 
-.middle-col figure {
+#dropbox-clients .middle-col figure {
     width: 50%;
 }
 
-.middle-col img {
+#dropbox-clients .middle-col img {
     width: 100%;
 }
 
-.middle-content hr {
+#dropbox-clients .middle-content hr {
 
     width: 20%;
 }
 
-.middle-content q {
+#dropbox-clients .middle-content q {
     display: block;
     margin-bottom: 50px;
+}
+
+
+/* LARGER COL */
+
+#dropbox-clients .large-col {
+    height: 300px;
+    background-color: var(--freetrial-bg);
+}
+
+#dropbox-clients .free-trial-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+
+}
+
+#dropbox-clients .free-trial-box h2 {
+    color: var(--freetrial-txt);
+}
+
+#dropbox-clients .free-trial-txt {
+    width: 50%;
+}
+
+#dropbox-clients .free-trial-link {
+    width: 30%;
+}
+
+#dropbox-clients .free-trial-button {
+    border: none;
 }
