@@ -562,3 +562,34 @@ main h2 {
 #faq .last-question {
     border-bottom: 1px solid var(--uncolored-button-border);
 }
+
+
+
+/* FOOTER */
+#more-content {
+    background-color: var(--footer-bg);
+    color: var(--footer-txt);
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+#more-content a {
+    color: var(--footer-txt);
+}
+
+
+
+
+#more-content .col {
+    width: 15%;
+    margin-bottom: 100px;
+}
+
+#more-content li {
+    margin-bottom: 10px;
+}
+
+#more-content hr {
+    width: 5%;
+    margin-bottom: 40px;
+}
