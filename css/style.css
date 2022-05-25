@@ -152,12 +152,12 @@ section {
 /* BONUS HOVER UTILITY */
 
 .colored-button:hover {
-    box-shadow: 0 0 10px yellowgreen;
+    box-shadow: 0 0 20px yellowgreen inset;
     transform: scale(1.1);
 }
 
 .uncolored-button:hover {
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px black inset;
 }
 
 
