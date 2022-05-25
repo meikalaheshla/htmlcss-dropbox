@@ -521,6 +521,7 @@ main h2 {
 
 #dropbox-clients .middle-col img {
     width: 100%;
+    ;
 }
 
 #dropbox-clients .middle-content hr {
@@ -567,6 +568,18 @@ main h2 {
     border: none;
 }
 
+
+/* HOVER BONUS BOXES */
+
+#dropbox-clients .logo-box:hover {
+    border: 10px solid #ffffff39;
+}
+
+
+
+#dropbox-clients .middle-col:hover {
+    border: 10px solid #00000039;
+}
 
 
 
