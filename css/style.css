@@ -528,3 +528,37 @@ main h2 {
 #dropbox-clients .free-trial-button {
     border: none;
 }
+
+
+
+
+
+/* FAQ SECTION */
+#faq h2 {
+    margin-bottom: 80px;
+}
+
+#faq .angle-down {
+    text-align: end;
+}
+
+#faq button {
+    border: none;
+    background-color: var(--uncolored-button-bg);
+    cursor: pointer;
+}
+
+
+
+#faq .faq-box {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    line-height: 100px;
+    padding-right: 20px;
+    border-top: 1px solid var(--uncolored-button-border);
+}
+
+#faq .last-question {
+    border-bottom: 1px solid var(--uncolored-button-border);
+}
