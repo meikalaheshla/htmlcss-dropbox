@@ -444,7 +444,7 @@ main h2 {
 /* SIDE COLS */
 
 #dropbox-clients .side-col {
-    height: 600px;
+    height: calc(100vw/3);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -533,14 +533,16 @@ main h2 {
 /* LARGER COL */
 
 #dropbox-clients .large-col {
-    height: 300px;
+    height: calc((100vw/3)/2);
     background-color: var(--freetrial-bg);
 }
 
 #dropbox-clients .free-trial-box {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     padding: 100px 0;
+    height: 100%;
 
 }
 
@@ -550,6 +552,7 @@ main h2 {
 
 #dropbox-clients .free-trial-txt {
     width: 50%;
+
 }
 
 #dropbox-clients .free-trial-link {
