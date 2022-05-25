@@ -149,11 +149,15 @@ section {
     flex-wrap: wrap;
 }
 
-/* HOVER UTILITY */
+/* BONUS HOVER UTILITY */
 
 .colored-button:hover {
     box-shadow: 0 0 10px yellowgreen;
     transform: scale(1.1);
+}
+
+.uncolored-button:hover {
+    box-shadow: 0 0 10px black;
 }
 
 
@@ -584,20 +588,33 @@ main h2 {
     cursor: pointer;
 }
 
-
+#faq .row {
+    line-height: 100px;
+}
 
 #faq .faq-box {
-    display: flex;
+
     justify-content: space-between;
     height: 100px;
-    line-height: 100px;
+
     padding-right: 20px;
     border-top: 1px solid var(--uncolored-button-border);
+    overflow-y: hidden;
+    transition: height 1s ease;
 }
 
 #faq .last-question {
     border-bottom: 1px solid var(--uncolored-button-border);
 }
+
+/* BONUS HIDDEN TXT */
+
+#faq .faq-box:hover {
+    height: 180px;
+}
+
+
+
 
 
 
