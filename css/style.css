@@ -250,6 +250,11 @@ header .left-navbar {
 
 #inpage-link {
     font-size: 60px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    transition: transform 2s linear;
+
 }
 
 
@@ -263,7 +268,27 @@ header .left-navbar {
     width: 100%
 }
 
+/* JUMBONUS */
 
+.fa-arrow-down {
+    animation: bouncing 2s infinite;
+
+}
+
+@keyframes bouncing {
+    0% {
+        transform: translateY(0);
+
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
 
 
 
